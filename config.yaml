@@ -1,0 +1,21 @@
+CMS_HOST: 'http://118.178.197.7:8080'
+LOGIN_PATH: '/api/auth/jwt/login'
+REFRESH_PATH: '/api/auth/jwt/refresh-token'
+NEW_ARTICLE_PATH: '/api/backend/core/article'
+CHECK_ARTICLE_TITLE_PATH: '/api/backend/core/article/title-exist'
+IMAGE_UPLOAD_PATH: '/api/backend/image-upload'
+MEDIA_UPLOAD_PATH: '/api/backend/media-upload'
+AUDIO_UPLOAD_PATH: '/api/backend/audio-upload'
+FILE_UPLOAD_PATH: '/api/backend/file-upload'
+PUBLIC-KEY_PATH: '/api/env/client-public-key'
+USERNAME: 'admin'
+#PASSWORD: 'BKDoFeY7yinGRkds+T0XrNqbtnagcl2h00SrRqwEWm4D3/paFmS2J147uMtg8oDbUeibAC1nMGRV4KeM9lIUSjmK1pDSSvXzANaoD5LRSpVtBrKMaXULFLhf9JIHE21VG6gdrDvZbKuL'
+PASSWORD: 'password'
+DEFAULT_EXPIRES_IN: 1800  # 默认 token 有效期（秒）
+TOKEN_REFRESH_BUFFER: 30  # 提前刷新时间（秒）
+
+
+feed_source:
+  #  - https://aave.mirror.xyz/feed/atom
+  - https://medium.com/feed/2key
+#  - https://medium.com/feed/@1inch-exchange
